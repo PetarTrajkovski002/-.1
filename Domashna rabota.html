@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MAMA Mirinda</title>
+        <style>
+            table, th, td 
+            {
+                border: 3px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    
+    </style>
+    
+    <body>
+        <h1><strong>RESTAURANT <em>MAMA MIA</em></strong></h1>
+        <p>Welcome to <em>MAMA MIA</em>, our second installment in the city center. Please place your order in the form below. </p>
+        <form action="Domashna rabota 2.html" method="get">
+            <table style="width: 50%;">
+                <th colspan="2">Pizza Configurator</th>
+                <tr>
+                    <td align="right">Name</td>
+                    <td align="left">
+                        <label for ="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td align="right">Address</td>
+                    <td align="left">
+                        <label for="address"></label>
+                        <input type="text" name="address" id="address" placeholder="Enter your address here" required>
+                    </td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td align="right">Phone number</td>
+                    <td align="left">
+                        <label for="phone"></label>
+                        <input type="text" name="phone" id="phone" placeholder="Enter your phone number here" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Pizza</td>
+                    <td align="left">
+                        <label for="t">Capricciosa</label>
+                        <input type="radio" name="t" id="t">
+                        <label for="t">Margharita</label>
+                        <input type="radio" name="t" id="t">
+                        <label for="t">Napolitana</label>
+                        <input type="radio" name="t" id="t">
+                        <label for="t">Quattro Formaggi</label>
+                        <input type="radio" name="t" id="t">
+                        <label for="t">Pepperoni</label>
+                        <input type="radio" name="t" id="t">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Drink</td>
+                    <td align="left">
+                        <label for ="b"></label>
+                        <select id="b" name="b">
+                            <option value="cc">Coca-Cola</option>
+                            <option value="f">Fanta</option>
+                            <option value="s">Sprite</option>
+                            <option value="m">Mirinda</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Extras</td>
+                    <td align="left">
+                        <label for="excheese">Extra cheese</label>
+                        <input type="checkbox" id="excheese" name="excheese">
+                        <label for="pancakes">Pancakes</label>
+                        <input type="checkbox" id="pancakes" name="pancakes">
+                        <label for="maccheese">Mac and cheese</label>
+                        <input type="checkbox" id="maccheese" name="maccheese">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="tekst">Extra instructions</label>
+                        <textarea id="text" name="text" placeholder="Put your text here"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
